@@ -100,7 +100,7 @@ while True:
 
     # Pulo
     if not pulo:
-        if teclas[pygame.K_SPACE]:
+        if teclas[pygame.K_UP]:
             personagem_velocidade_y = -15
             pulo = True
             indice_animacao = 0
